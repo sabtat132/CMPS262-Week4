@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<center>
+<html>
+<head>
+  <title>Sabrina & Bryce Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+.w3-button {width:150px;}
+
+h1 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: left;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+  list-style-position: inside;
+}
+
+.collapsible {
+  background-color: #2EFD5F;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #E9F999;
+}
+
+.collapsible:after {
+  content:'\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+</style>
+</head>
+<body style="background-color:snow;">
+<!--This will be a header for the webpage!-->
+    <h1>This website will serve as a student portfolio for students</h1>
+    <p>You are able to view photos from students, visit their website, and learn more about their projects and career interests</p>
+
+    <div class="container">
+      <h2>Photo Gallery</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <img src="america250pa.jpg" alt="America250PA" style="width:70%;">
+            <div class="carousel-caption">
+              <h3>America250PA</h3>
+              <p>Sabrina participating in the USPS America250PA Direct Effect Innovation Challenge</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="girlscouts.jpg" alt="girlscouts" style="width:70%;">
+            <div class="carousel-caption">
+              <h3>Girl Scout Gold Award</h3>
+              <p>Sabrina is a Girl Scout Gold Award recipient</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="bigdata.jpg" alt="bigdata" style="width:70%;">
+            <div class="carousel-caption">
+              <h3>Sabrina Tatalias - Data Jam 2016</h3>
+              <p>Sabrina Tatalias - 1st place winner of Pittsburgh Data Works Data Jam 2016 - Project on Brick N Mortar vs Online College ROI</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="itso.png" alt="itso" style="width:70%;">
+            <div class="carousel-caption">
+              <h3>ITSO</h3>
+              <p>A picture from ITSO's movie night, ft. 3/4ths of Bryce's head</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+
+
+
+<!--Each button/div will be a new collapsible to add information to!-->
+  <button type="button" class="collapsible">Student Bios</button>
+  <div class="content">
+    <h2>Sabrina Tatalias</h2>
+    <p>Hi, my name is Sabrina Tatalias, and I am currently a 1st semester junior at Point Park University - graduating in December 2021! </p>
+    <p>A little about myself is that I am a Rowland School of Business Ambassador, President of ITSO, and in the Honors Program at Point Park University.</p>
+    <p>When I'm not on campus, you can find me working or volunteering. I'm on the board of a nonprofit in my community called the Bethel Park Community Foundation. On that board, I oversee our Marketing and PR efforts by overseeing the events, Facebook, website, and internship program.</p>
+    <p>Since I came to Point Park University, I have been working as a Customer Care Rep at a local start-up in Pittsburgh. Starting February, I will be starting an internship at a marketing firm called Bounteous as a Marketing & Web Analytics Intern. Then, in the summer, I will be a Data Analyst intern at Gateway Health for their Data Services team working for the Data Management and Integration group.</p>
+    <h2>Bryce Hayzlett</h2>
+    <p>My name is Bryce and I've been attending Point Park University since Fall 2017. I'm majoring in Information Technology, minoring in History, and I'll be graduating Fall 2021.</p>
+    <p>I'm best known on campus for being the President Pro-Tempore of the Student Government Association of Point Park University. I've been interested in student government since the start of the last Spring semester and have officailly been a member since September 2019, being elected as a Senator for the Rowland School of Business.</p>
+    <p>I hope to continue my student government work until I graduate and I plan to run for Vice President during the upcoming elections.
+    <p></p>
+    </div>
+  <button type="button" class="collapsible">Student Projects</button>
+  <div class="content">
+      <div class="w3-container">
+        <!--Replace the placeholder links below with the proper links to projects-->
+          <h2>Click a button to learn about the student project</h2>
+          <p><button onclick="location.href='https://it.pointpark.edu/'" class="w3-btn w3-border w3-round-xxlarge w3-hover-green">DataJam - 2017</button></p>
+          <p><button onclick="location.href='https://it.pointpark.edu/'" class="w3-btn w3-border w3-round-xxlarge w3-hover-green">USPS Direct Effect Innovation Challenge</button></p>
+          <p><button onclick="location.href='https://it.pointpark.edu/'" class="w3-btn w3-border w3-round-xxlarge w3-hover-green">Bethel Park Community Foundation</button></p>
+          <p><button onclick="location.href='https://ppuglobe.com/2019/09/usg-swears-in-11-new-senators-to-legislative-body/'" class="w3-btn w3-border w3-round-xxlarge w3-hover-green">Bryce - Small Interview</button></p>
+          <p><button onclick="location.href='https://ppuglobe.com/2019/11/usg-shuts-down-proposed-conservative-club/'" class="w3-btn w3-border w3-round-xxlarge w3-hover-green">Bryce - Turning Point USA</button></p>
+          <p><button onclick="location.href='https://ppuglobe.com/2019/12/usg-senator-accused-of-forging-signatures/'" class="w3-btn w3-border w3-round-xxlarge w3-hover-green">Bryce - Impeachment</button></p>
+        </div>
+  </div>
+  <button type="button" class="collapsible">Student Courses - 2020</button>
+  <div class="content">
+    <h2>Sabrina's Schedule</h2>
+    <ul>
+      <li>Principles of Marketing</li>
+      <li>Managerial Accounting</li>
+      <li>World Literature: Novels</li>
+      <li>Server Management</li>
+      <li>Advanced Programming</li>
+    </ul>
+    <h2>Bryce's Schedule</h2>
+    <ul>
+      <li>Advanced Programming</li>
+      <li>Business Law I</li>
+      <li>History of Pittsburgh</li>
+      <li>Priciples of Marketing</li>
+      <li>Server Management</li>
+    </ul>
+  </div>
+  <button type="button" class="collapsible">Student Career Goals</button>
+  <div class="content">
+    <h2>Sabrina</h2>
+    <p>I have career aspirations to become a Data Scientist and CEO. Upon graduation, I can see myself getting a job by the title of Data Analyst, Customer Insight Analyst, Business Analyst, Data Scientist, and Project Manager. </p>
+    <p>I have had a passion for data analytics since I was 16, so I strive to take on any opportunity that will allow me to reach my career goals.</p>
+    <p>I don't know what kind of company I want to start yet. Lastly, I love volunteering and giving back, so I want to start a non-profit organization and later down the road, a scholarship in my name.</p>
+    <p>I also want to be a Girl Scout Troop Leader - I currently am a Life Time Alum, and did Girl Scouts K-12, so  it's something I want to partake in longer.</p>
+    <h2>Bryce</h2>
+    <p>I haven't quite pinpointed what I'm looking to do once I graduate. I've been leaning more towards something with databases or a form of server management, but I'm not leaning strongly one way or the other.</p>
+    <p>I've always had a niche for computers and technology, so when I started thinking about college IT was the obvious choice for me. I've been the family member or friend to go to when someone was having computer issues since I was around 13 years old.</p>
+    <p>My main goal currently is to stay in Pittsburgh once I graduate. Coming from a small town means there's less opportunity back home than here in the city and I've always felt more at home here in the Pittsburgh area.</p>
+    <p>I've found that I'm fairly passionate for our student government and I've managed to do some good in that role, but I don't plan on doing anything politically related after I obtain my degree.</p>
+  </div>
+
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+  </script>
+
+
+</body>
+</html>
